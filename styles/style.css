@@ -1,0 +1,152 @@
+:root {
+    --primary-color: #DEB4DE;
+    --secondary-color: #f768f7;
+    --background-color: #220240;
+    --spacing-background: #3a0240;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #000000;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 25px;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+}
+
+nav a:current {
+    color: var(--secondary-color);
+}
+
+header {
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 30px 40px;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 25px;
+    color: var(--secondary-color);
+}
+
+.headp {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 30px 60px;
+}
+
+section {
+    background-color: var(--spacing-background);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-left: 4px solid var(--secondary-color);
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 25px;
+    border-top: 2px solid var(--secondary-color);
+}
+
+address {
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.gaming-setup {
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+.genres {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid var(--secondary-color);
+}
+
+.history {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid var(--secondary-color);
+}
+
+.kingdom-hearts {
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid var(--secondary-color);
+}
+
+.sora {
+    float: right;
+    width: 150px;
+    height: auto;
+    margin: -85px 0 20px 20px;
+    border: 1px solid var(--secondary-color);
+}
